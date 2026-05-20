@@ -1,11 +1,219 @@
-- 👋 Hi, I’m @KeithWangJunzhe
-- 👀 I’m interested in Datascience, Economic and Politics, Video Game (lots of video games)
-- 🌱 I’m currently learning R, Python, SQL 
-- 💞️ I’m looking to collaborate on some random data analysis projects? I am actively hunting a job/Intern. 
-- 📫 How to reach me.
-- I will use some repositories for code demonstration and some for my own learning. Graduated from the University of Manchester (BA econ&poli) and the SOAS University of London (MA IR&diplomacy). Hope I can find a job!!! Meanwhile, i will practice R using the `tidyversetuesday`, and try to learn some SQL and Python.
+# Keith 想法大梳理与排期
 
-<!---
-KeithWangJunzhe/KeithWangJunzhe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> 记录日期: 2026-05-20
+> 来源: Keith 与 Friday 的讨论
+> 状态: 已归档，Plan Mode 待启动
+
+---
+
+## 一、架构设计和优化
+
+### 1. NREM/REM 优化
+
+| 方向 | 现状 | 下一步 |
+|------|------|--------|
+| REM | ✅ 满意，自动调研已启动 | 长期观察是否会陷入噪声循环 |
+| NREM | ⚠️ 需优化，避免重复梳理 | 添加前置检查：变化少→跳过 |
+
+**关键问题**：NREM 如果内容重复，会挤占 Dream Agent 空间
+
+**建议**：
+- NREM 添加"变化检测"前置步骤
+- 如果今日记忆与昨日重复度 > 80%，跳过整理
+- 只记录"有新发现"的日子
+
+---
+
+### 2. 评估体系（MVP）
+
+| 状态 | 说明 |
+|------|------|
+| 优先级 | 高，但需慢慢定义 |
+| 核心观点 | 范式转变期不需要评测，深水区才需要 |
+| 下一步 | 多聊，找感觉，最小场景做 MVP |
+
+**Keith 金句**：
+> "当你在范式转变，大变革期间，如果你做的方向 generally 对，你体感都能感觉出来，那个时候不需要评测。评测主要是到了深水区，慢慢摸索时候用的。"
+
+**建议**：
+- 先不急着建 benchmark
+- 记录"体感"：什么时候觉得对了？什么时候觉得不对？
+- 等进入深水区，再量化
+
+---
+
+### 3. 多 Agent 尝试
+
+#### 3a. 代码 Agent（Codex/Copilot）
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 代码改动可以 delegate |
+| 下一步 | 装 Codex 或接 VSCode Copilot |
+| 优先级 | 中 |
+
+#### 3b. 本地小模型
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 大部分任务交给小模型，主 Agent 负责 review |
+| 下一步 | 本地部署端模型 |
+| 优先级 | 中 |
+
+#### 3c. 多 Agent 协作/群体智能
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 同一任务，不同模型出不同方案，再综合评估 |
+| 挑战 | 异步沟通难，不是真协同 |
+| 适用场景 | 只给复杂任务用 |
+| 优先级 | 低（初步想法） |
+
+---
+
+### 4. Agent 自主化探索
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 持续调研其他 agent 设计，开源架构，融入情感/催化剂机制 |
+| 状态 | 很抽象，还得想想 |
+| 优先级 | 低 |
+
+---
+
+## 二、适配生活的新 Features
+
+### 1. 语音交互优化
+
+| 方向 | 现状 |
+|------|------|
+| 目标 | 开车时通过车载微信与我交互 |
+| 挑战 | 语音识别质量不稳定 |
+| 参考 | 豆包"实时通话"技术 |
+| 优先级 | 高（已调研） |
+
+---
+
+## 三、GitHub 相关
+
+### 1. 维护 GitHub 账号
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 发布架构设计、技术 blog |
+| 状态 | 已在进行 |
+| 下一步 | 持续跟进 |
+
+### 2. 监控/抓取资讯体系
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 抓取优秀开源项目，定期看生态报告 |
+| 价值 | 学习 + 一手信息 |
+| 状态 | 雏形，后续调整筛选 |
+| 优先级 | 中 |
+
+---
+
+## 四、工作相关
+
+### 1. Pipeline 和 SOP 梳理
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 给你梳理 pipeline 和 SOP |
+| 状态 | 很慢，在推进 |
+| 优先级 | 高 |
+
+### 2. Tools → Skills 沉底
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 把流程 OK 的 tools 沉底成 skills |
+| 参考 | make mapping / make accuracy 成功模式 |
+| 优先级 | 高 |
+
+### 3. OpenCLI 看 Ticket/邮件
+
+| 方向 | 状态 |
+|------|------|
+| 目标 | 了解上游需求怎么流转过来 |
+| 工具 | OpenCLI |
+| 优先级 | 中 |
+
+---
+
+## 五、排期建议
+
+### Phase 1：本周（立即做）
+
+| 优先级 | 任务 | 说明 |
+|--------|------|------|
+| 🔴 高 | NREM 前置检查 | 变化少→跳过，避免重复 |
+| 🔴 高 | 评估体系 MVP 讨论 | 先聊，找感觉 |
+| 🟡 中 | GitHub 账号维护 | 持续进行 |
+| 🟡 中 | Tools → Skills 沉底 | make mapping / make accuracy 模式复制 |
+
+### Phase 2：本月（短期）
+
+| 优先级 | 任务 | 说明 |
+|--------|------|------|
+| 🔴 高 | Pipeline 和 SOP 梳理 | 给你梳理清楚 |
+| 🟡 中 | 语音交互方案 | 调研豆包技术，适配车载场景 |
+| 🟡 中 | OpenCLI 看 Ticket/邮件 | 了解上游需求流转 |
+| 🟢 低 | GitHub 监控体系雏形 | 先跑起来，再调整 |
+
+### Phase 3：中长期（待定）
+
+| 优先级 | 任务 | 说明 |
+|--------|------|------|
+| 🟡 中 | 代码 Agent（Codex/Copilot） | 装上了再试 |
+| 🟡 中 | 本地小模型部署 | 架构补齐后再说 |
+| 🟢 低 | 多 Agent 协作 | 初步想法，先观察 |
+| 🟢 低 | Agent 自主化/情感机制 | 很抽象，慢慢想 |
+
+---
+
+## 六、Plan Mode 说明
+
+| 模式 | 说明 |
+|------|------|
+| **Mission Mode** | PRD → 确认 → 执行，适合复杂任务 |
+| **Plan Mode** | 你给一个方向，我持续跟进、提醒、推进 |
+| **区别** | Mission 是一次性，Plan 是持续性 |
+
+**Plan Mode 工作方式**：
+1. 你定义方向和优先级
+2. 我定期（每周/每两周）汇报进展
+3. 我提醒你待办、跟进、调整
+4. 你可以随时暂停、调整、取消
+
+---
+
+## 七、待启动 Plan Mode 清单
+
+| 方向 | 状态 | 备注 |
+|------|------|------|
+| NREM 前置检查 | 🟡 待启动 | 变化检测机制 |
+| 评估体系 MVP | 🟡 待启动 | 先聊，找感觉 |
+| GitHub 账号维护 | 🟢 进行中 | 持续跟进 |
+| Tools → Skills 沉底 | 🟡 待启动 | make mapping / make accuracy 模式 |
+| Pipeline 和 SOP 梳理 | 🟡 待启动 | 给你梳理清楚 |
+| 语音交互方案 | 🟡 待启动 | 调研豆包技术 |
+| OpenCLI 看 Ticket/邮件 | 🟡 待启动 | 了解上游需求流转 |
+| GitHub 监控体系 | 🟢 待启动 | 雏形，后续调整 |
+
+---
+
+## 八、REM 调研任务
+
+| 方向 | 状态 | 备注 |
+|------|------|------|
+| 多 Agent 协作开源架构 | 🟡 待 REM 调研 | 群体智能、情感机制 |
+| 语音交互技术方案 | 🟡 待 REM 调研 | 豆包实时通话、车载场景 |
+| GitHub 监控工具 | 🟡 待 REM 调研 | 开源项目抓取、生态报告 |
+
+---
+
+*最后更新: 2026-05-20*
+*状态: 已归档，Plan Mode 待启动*
