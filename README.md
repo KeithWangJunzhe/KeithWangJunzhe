@@ -22,8 +22,7 @@ Exploring the intersection of **AI Agents**, **Memory Systems**, and **Human-Com
 
 ## 📫 Contact
 
-- 📧 [Your Email]
-- 💼 [LinkedIn]
+- 📧 wjz1999@live.com
 
 ---
 
